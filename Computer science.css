@@ -1,0 +1,28 @@
+body{
+	background-color: #F0F8FF;
+}
+table{
+	border: 2px solid;
+	border-color:#6CB4EE;
+	height: 6%;
+	width:100%;
+ 	text-align: center;
+	background-color: #87CEFA;
+}
+a:link,a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+  	color: #0066b2;
+ 	text-decoration: underline;
+}
+.font{
+	font-family: Open Sans;
+	color: white;
+	font-size: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
