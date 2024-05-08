@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F0F8FF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	position: fixed;
+	top: 0;
+	height: 72px;
+	width: 1340px;
+	background-color: #87CEFA;
+	font-size: 1.5em;
+}
+.logo{
+	position: relative;
+	float: left;
+	width: 242px;
+}
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav > ul > li > a{
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    -decoration: none;
+}
+a:link, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+  	background-color: #b6d8ee;
+}
+a.active{
+	background-color: #1E90FF;
+}
+.dropbtn{
+	background-color: #87cefa;
+	color: white;
+	padding: 20px;
+	font-size: 1.1em;
+	border: none;
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	font-size: 0.7em;
+	text-align: left;
+	display: block;
+  }
+.dropdown-content a:hover{
+	background-color: #d6e4f0;
+	color: #1E90FF;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropbtn{
+	background-color: #b6d8ee;
+}
+.dropbtn-2{
+	background-color: #87cefa;
+	color: white;
+	padding: 20px;
+	font-size: 1.1em;
+	border: none;
+}
+.dropdown-2{
+	display: inline-block;
+}
+.dropdown-content-2{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content-2 a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	font-size: 0.7em;
+	text-align: left;
+	display: block;
+  }
+.dropdown-content-2 a:hover{
+	background-color: #d6e4f0;
+	color: #1E90FF;
+}
+.dropdown-2:hover .dropdown-content-2{
+	display: block;
+}
+.dropdown-2:hover .dropbtn-2{
+	background-color: #b6d8ee;
+}
+
+
+
+
+@keyframes float {
+      0% {
+        top: 0;
+        left: 25%;
+      }
+      25% {
+        top: 25%;
+        left: 50%;
+      }
+      50% {
+        top: 50%;
+        left: 25%;
+      }
+      75% {
+        top: 25%;
+        left: 0;
+      }
+      100% {
+        top: 0;
+        left: 25%;
+      }
+    }
+
+.floating-message {
+  position: fixed;
+  animation: float 20s ease-in-out infinite;
+  font-size: 2rem;
+  color: blueviolet;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+}
