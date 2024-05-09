@@ -207,3 +207,8 @@ input:focus {
 textarea:focus {
  outline: 2px solid #0071c5;  
 }
+.num{
+  background-image: linear-gradient(to right, #ff0000, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
